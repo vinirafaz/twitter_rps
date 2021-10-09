@@ -7,6 +7,9 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 
+# TODO: Traduzir o script para inglês
+
+# TODO: Criar uma função para acesso das variáveis de ambiente
 load_dotenv()
 CONSUMER_KEY = os.getenv('CONSUMER_KEY')
 CONSUMER_SECRET = os.getenv('CONSUMER_SECRET')
@@ -70,6 +73,7 @@ if __name__ == '__main__':
 
     api = authentication_tt()
 
+    # TODO: Refatorar o try except
     try:
         api.update_status(tweet)
     except tweepy.TweepyException as error:
@@ -78,3 +82,5 @@ if __name__ == '__main__':
             print('duplicate message')
         else:
             raise error
+
+# TODO: Refatorar o script com boas práticas 'pythonicas' e lógica

@@ -1,4 +1,4 @@
-# twitter_rps
+# twitter jokenpo
 
 
 ## Pré requisistos

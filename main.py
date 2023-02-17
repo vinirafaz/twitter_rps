@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from jokenpo import Jokenpo
 
 
-# Isolate env variables
+#TODO: Isolate env variables
 load_dotenv()
 CONSUMER_KEY_TT = os.getenv('CONSUMER_KEY_TT')
 CONSUMER_SECRET_TT = os.getenv('CONSUMER_SECRET_TT')

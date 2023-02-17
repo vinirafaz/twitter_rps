@@ -68,7 +68,7 @@ class Jokenpo:
                f"{result}"
 
 
-# TO Develop menu to play on terminal and vs human
+# TODO: Develop menu to play on terminal and vs human
 def menu():
     pass
 

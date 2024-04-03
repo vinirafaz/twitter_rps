@@ -8,4 +8,4 @@
 * Caso os dois jogadores fizerem a mesma jogada é empate.
 
 ## Pré requisistos
-* [Módulos](requirements.txt)
+* [Pacotes](requirements.txt)
